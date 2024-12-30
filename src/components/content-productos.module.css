@@ -1,0 +1,229 @@
+.content {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.plenoPrimary {
+  background: var(--primary-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}
+
+.right .plenoPrimary {
+  left: inherit;
+  right: 0;
+}
+
+.contentData {
+  background: var(--secondary-color);
+  padding: 0 12px 30px 12px !important;
+}
+
+.contentData p:last-child {
+  margin-bottom: 0;
+}
+
+.contentImg {
+  background: var(--secondary-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.imgProduct {
+  max-width: 80% !important;
+}
+
+.contentBtnProduct {
+  text-align: center;
+}
+
+.btnProduct {
+  margin-top: 15px;
+  width: 80%;
+}
+
+.contentTipoEstanterias {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+  gap: 10px; /* Espaciado entre imágenes */
+  justify-content: center; /* Centra las filas */
+  text-align: center;
+}
+
+.tipoEstanteria img {
+  width: calc(100% - 10px); /* Ocupa el 100% menos el espacio del gap */
+  max-width: 100%;
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+  .imgProduct {
+    max-width: 60% !important;
+  }
+
+  .contentData h2 {
+    text-align: left;
+  }
+
+  .contentDataWithColor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .contentBtnProduct {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .plenoPrimary {
+    width: 15%;
+    height: 100%;
+  }
+
+  .contentImg {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 9%;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    background: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .right .contentImg {
+    left: inherit;
+    right: 9%;
+  }
+
+  .imgProduct {
+    max-width: 100% !important;
+    margin-left: -30px;
+  }
+
+  .contentData {
+    background: white;
+    padding: 0 !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .contentDataWithColor {
+    width: 100%;
+    padding: 30px 8.5% 30px 50%;
+    background: var(--secondary-color);
+  }
+
+  .right .contentDataWithColor {
+    padding: 30px 50% 30px 8.5%;
+  }
+
+  .btnProduct {
+    font-size: 1.25rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .contentImg {
+    left: 8.5%;
+  }
+
+  .contentDataWithColor {
+    padding: 60px 8.5% 60px 52%;
+  }
+
+  .right .contentDataWithColor {
+    padding: 60px 52% 60px 8.5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .contentData p {
+    font-size: 1.25rem;
+  }
+
+  .contentImg {
+    left: 10.5%;
+  }
+
+  .imgProduct {
+    max-width: 100% !important;
+    margin-left: -100px;
+  }
+
+  .contentDataWithColor {
+    padding: 80px 8.5% 80px 50%;
+  }
+
+  .right .contentDataWithColor {
+    padding: 80px 50% 80px 8.5%;
+  }
+
+  .btnProduct {
+    margin-top: 30px;
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contentImg {
+    left: 8.5%;
+  }
+
+  .imgProduct {
+    margin-left: -50px;
+  }
+
+  .contentDataWithColor {
+    padding: 120px 8.5% 120px 50%;
+  }
+
+  .right .contentDataWithColor {
+    padding: 120px 50% 120px 8.5%;
+  }
+
+  .btnProduct {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .contentImg {
+    left: 5.5%;
+  }
+
+  .imgProduct {
+    margin-left: 0;
+  }
+
+  .contentData p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .contentImg {
+    left: 2.5%;
+  }
+}

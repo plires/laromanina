@@ -1,0 +1,54 @@
+.CarruselImagesGallery {
+  margin-bottom: 30px;
+}
+
+.content {
+  position: relative;
+  background: var(--secondary-color);
+}
+
+.content img {
+  mix-blend-mode: darken;
+}
+
+.fillPrimary,
+.fillThird {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  width: 80%;
+}
+
+.fillPrimary {
+  background: var(--primary-color);
+}
+
+.fillThird {
+  background: var(--third-color);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .CarruselImagesGallery {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+}

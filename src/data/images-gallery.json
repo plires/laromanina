@@ -1,0 +1,61 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "img_src_opt": "galeria-estanterias-racks-a.webp",
+      "img_src": "galeria-estanterias-racks-a.jpg",
+      "img_alt": "galeria estanterias metalicas y racks - La Romanina - a",
+      "color": "primary"
+    },
+    {
+      "id": 2,
+      "img_src_opt": "galeria-estanterias-racks-b.webp",
+      "img_src": "galeria-estanterias-racks-b.jpg",
+      "img_alt": "galeria estanterias metalicas y racks - La Romanina - b",
+      "color": "third"
+    },
+    {
+      "id": 3,
+      "img_src_opt": "galeria-estanterias-racks-c.webp",
+      "img_src": "galeria-estanterias-racks-c.jpg",
+      "img_alt": "galeria estanterias metalicas y racks - La Romanina - c",
+      "color": "primary"
+    },
+    {
+      "id": 4,
+      "img_src_opt": "galeria-estanterias-racks-d.webp",
+      "img_src": "galeria-estanterias-racks-d.jpg",
+      "img_alt": "galeria estanterias metalicas y racks - La Romanina - d",
+      "color": "third"
+    },
+    {
+      "id": 5,
+      "img_src_opt": "galeria-estanterias-racks-e.webp",
+      "img_src": "galeria-estanterias-racks-e.jpg",
+      "img_alt": "galeria estanterias metalicas y racks - La Romanina - e",
+      "color": "primary"
+    },
+    {
+      "id": 6,
+      "img_src_opt": "galeria-estanterias-racks-g.webp",
+      "img_src": "galeria-estanterias-racks-g.jpg",
+      "img_alt": "galeria estanterias metalicas y racks - La Romanina - f",
+      "color": "third"
+    },
+
+    {
+      "id": 7,
+      "img_src_opt": "galeria-estanterias-racks-c.webp",
+      "img_src": "galeria-estanterias-racks-c.jpg",
+      "img_alt": "galeria estanterias metalicas y racks - La Romanina - h",
+      "color": "primary"
+    },
+    {
+      "id": 8,
+      "img_src_opt": "galeria-estanterias-racks-f.webp",
+      "img_src": "galeria-estanterias-racks-f.jpg",
+      "img_alt": "galeria estanterias metalicas y racks - La Romanina - f",
+      "color": "third"
+    }
+  ]
+}

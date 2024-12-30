@@ -1,0 +1,167 @@
+.header {
+  position: relative;
+  background: url('@/assets/img/header-750.jpg'); /* Imagen por defecto para navegadores que no soportan WebP */
+  background-repeat: no-repeat !important;
+  background-position: 100% 50% !important;
+  background-size: cover !important;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+@supports (background-image: url('@/assets/img/header-750.webp')) {
+  .header {
+    background: url('@/assets/img/header-750.webp'); /* Imagen WebP para navegadores compatibles */
+  }
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  max-width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.header h1 span {
+  font-size: 1.25rem;
+  font-weight: 500;
+  display: inline-block;
+  line-height: 1 !important;
+}
+
+.contentData,
+.contentForm {
+  z-index: 1;
+}
+
+.contentForm {
+  margin-bottom: 30px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 60px 30px 60px 30px;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .logo img {
+    max-width: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .contentData {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .contentForm {
+    margin-bottom: 0;
+  }
+
+  .header h1 {
+    font-size: 2.25rem;
+    margin-bottom: 0;
+    margin-top: 115px;
+  }
+
+  .header h1 span {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    padding: 80px 30px 80px 30px;
+  }
+
+  .logo img {
+    max-width: 250px;
+    margin-top: -35px;
+    margin-bottom: 35px;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+  }
+
+  .header h1 span {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    margin-bottom: 80px;
+  }
+
+  .contentForm {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .header h1 {
+    font-size: 3.5rem;
+    margin-top: 70px;
+  }
+
+  .header h1 span {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+  .header {
+    padding: 120px 60px 120px 60px;
+  }
+
+  .logo img {
+    max-width: 300px;
+    margin-top: -65px;
+    margin-bottom: 65px;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+    max-width: 800px;
+    margin-top: 65px;
+  }
+
+  .header h1 span {
+    margin-top: 0;
+    font-size: 2.5rem;
+  }
+}

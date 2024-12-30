@@ -1,0 +1,35 @@
+.lastCTA {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.btnProduct {
+  font-size: 1.25rem !important;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .lastCTA {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btnProduct {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}

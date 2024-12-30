@@ -1,0 +1,9 @@
+.error {
+  margin-bottom: 5px !important;
+  color: red;
+  font-size: 0.75rem;
+  font-weight: 300;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}

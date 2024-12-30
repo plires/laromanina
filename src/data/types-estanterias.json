@@ -1,0 +1,32 @@
+{
+  "typesEstanterias": [
+    {
+      "id": 1,
+      "title": "ABIERTAS",
+      "img": "estanteria-abierta.png",
+      "imgOpt": "estanteria-abierta.webp",
+      "alt": "estanteria metalica de almacenamiento abierta"
+    },
+    {
+      "id": 2,
+      "title": "CERRADAS",
+      "img": "estanteria-cerrada.png",
+      "imgOpt": "estanteria-cerrada.webp",
+      "alt": "estanteria metalica de almacenamiento cerrada"
+    },
+    {
+      "id": 3,
+      "title": "CON CAJONES",
+      "img": "estanteria-con-cajones.png",
+      "imgOpt": "estanteria-con-cajones.webp",
+      "alt": "estanteria metalica de almacenamiento con cajones"
+    },
+    {
+      "id": 4,
+      "title": "CON PUERTAS",
+      "img": "estanteria-con-puertas.png",
+      "imgOpt": "estanteria-con-puertas.webp",
+      "alt": "estanteria metalica de almacenamiento con puertas"
+    }
+  ]
+}
