@@ -23,7 +23,10 @@ export const handleWhatsapp = () => {
 
   // Obtener la hora actual en formato 24 horas
   const realTime = buenosAiresTime.getHours()
-  return realTime < parseInt(import.meta.env.VITE_WHATSAPP_OPERATING_LIMIT_TIME)
+  return (
+    realTime >= parseInt(import.meta.env.VITE_WHATSAPP_START_TIME) &&
+    realTime < parseInt(import.meta.env.VITE_WHATSAPP_END_TIME)
+  )
 }
 
 export const scrollToTop = (setMessage, msg, textAreaRef) => {
