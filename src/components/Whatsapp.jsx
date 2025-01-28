@@ -42,7 +42,7 @@ const Whatsapp = () => {
               href={import.meta.env.VITE_WHATSAPP_LINK}
               target='_blank'
               rel='noopener noreferrer'
-              className='btn btn-wap'
+              className='btn btn-wap btnTagManager'
             >
               CHAT
             </a>
@@ -64,7 +64,7 @@ const Whatsapp = () => {
 
             <a
               id='whatsapp_mobile'
-              className='transition'
+              className='transition btnTagManager'
               href={import.meta.env.VITE_WHATSAPP_LINK}
               target='_blank'
               rel='noopener noreferrer'
