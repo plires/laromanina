@@ -14,6 +14,18 @@ export const getCurrentMonth = () => {
   return month
 }
 
+export const handleWhatsapp = () => {
+  // Crear un objeto de fecha en la zona horaria de Buenos Aires
+  const now = new Date().toLocaleString('en-US', {
+    timeZone: 'America/Argentina/Buenos_Aires',
+  })
+  const buenosAiresTime = new Date(now)
+
+  // Obtener la hora actual en formato 24 horas
+  const realTime = buenosAiresTime.getHours()
+  return realTime < parseInt(import.meta.env.VITE_WHATSAPP_OPERATING_LIMIT_TIME)
+}
+
 export const scrollToTop = (setMessage, msg, textAreaRef) => {
   setMessage(msg)
 
