@@ -49,8 +49,8 @@ try {
   // $app->subscribeUserInPerfit($require);
 
   // Enviamos los correos al usuario y al administrador del sitio
-  $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $require, $_ENV['VITE_EMAIL_RECIPENT']);
-  $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $require, $_ENV['VITE_EMAIL_RECIPENT']);
+  $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $require, $_ENV['EMAIL_RECIPENT']);
+  $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $require, $_ENV['EMAIL_RECIPENT']);
 
   if ($sendClient && $sendUser) {
 
@@ -63,14 +63,14 @@ try {
     echo json_encode($response_array);
     exit;
   } else {
-    array_push($response_array['errors'], '1-Ocurrió un error al enviar la consulta, por favor intente nuevamente o si prefiere contacte a ' . $_ENV['VITE_EMAIL_RECIPENT']);
+    array_push($response_array['errors'], '1-Ocurrió un error al enviar la consulta, por favor intente nuevamente o si prefiere contacte a ' . $_ENV['EMAIL_RECIPENT']);
 
     echo json_encode($response_array);
     exit;
   }
 } catch (\Throwable $th) {
 
-  array_push($response_array['errors'], '2-Ocurrió un error al enviar la consulta, por favor intente nuevamente o si prefiere contacte a ' . $_ENV['VITE_EMAIL_RECIPENT']);
+  array_push($response_array['errors'], '2-Ocurrió un error al enviar la consulta, por favor intente nuevamente o si prefiere contacte a ' . $_ENV['EMAIL_RECIPENT']);
 
   echo json_encode($response_array);
   exit;
