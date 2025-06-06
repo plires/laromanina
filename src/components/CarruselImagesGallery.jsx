@@ -62,14 +62,17 @@ const CarruselImagesGallery = () => {
           <div key={item.id} className={`${styles.content}`}>
             <picture>
               <source
-                srcSet={getImageURL(item.img_src_opt)}
+                srcSet={getImageURL(`galeria/${item.img_src_opt}`)}
                 type='image/webp'
               />
-              <source srcSet={getImageURL(item.img_src)} type='image/jpg' />
+              <source
+                srcSet={getImageURL(`galeria/${item.img_src}`)}
+                type='image/jpg'
+              />
 
               <img
                 className='transition img-fluid'
-                src={getImageURL(item.img_src)}
+                src={getImageURL(`galeria/${item.img_src}`)}
                 alt={item.img_alt}
               />
             </picture>

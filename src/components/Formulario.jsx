@@ -176,7 +176,7 @@ export default function Formulario() {
                       htmlFor='comments'
                       className={`${styles.label} ${styles.labelComments}`}
                     >
-                      Comentarios
+                      Dejanos tu consulta
                     </label>
                     <Field
                       innerRef={textAreaRef}

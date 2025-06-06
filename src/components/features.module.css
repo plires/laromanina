@@ -1,5 +1,5 @@
 .features {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
@@ -10,7 +10,7 @@
 
 @media (min-width: 992px) {
   .features {
-    margin-bottom: 60px;
+    margin-bottom: 90px;
   }
 }
 
@@ -18,6 +18,9 @@
 }
 
 @media (min-width: 1400px) {
+  .features {
+    margin-bottom: 120px;
+  }
 }
 
 @media (min-width: 1600px) {

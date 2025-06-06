@@ -203,7 +203,7 @@
 
     .button-td-primary:hover,
     .button-a-primary:hover {
-      background: #ffbd0a !important;
+      background: #EA6A00 !important;
       border-color: #FFFFFF !important;
       color: #FFFFFF !important;
     }
@@ -325,7 +325,7 @@
       <tr>
         <td style="vertical-align: middle;">
 
-          <img src="{base}img-email/header-email.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" alt="header" />
+          <img src="{base}img-email/header-email-naranja.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" alt="header" />
 
         </td>
       </tr>
@@ -335,7 +335,7 @@
       <tr style="background-color: #fefefe;">
         <td style="padding: 40px; padding-top: 0px;">
 
-          <h2 class="fallback-font" style="margin: 0 0 20px 0; padding-top: 40px; font-family: 'Montserrat', sans-serif; font-size: 22px; line-height: 32px; color: #ffbd0a; text-align: center; font-weight: 700; text-transform: uppercase;">
+          <h2 class="fallback-font" style="margin: 0 0 20px 0; padding-top: 40px; font-family: 'Montserrat', sans-serif; font-size: 22px; line-height: 32px; color: #EA6A00; text-align: center; font-weight: 700; text-transform: uppercase;">
             <strong>GRACIAS POR TU CONTACTO</strong>
           </h2>
 
@@ -388,8 +388,8 @@
       <!-- Texto end-->
 
       <!-- Boton : BEGIN -->
-      <tr style="background-color: #ffbd0a;">
-        <td style="background-color: #ffbd0a; text-align: center; padding: 40px;">
+      <tr style="background-color: #EA6A00;">
+        <td style="background-color: #EA6A00; text-align: center; padding: 40px;">
 
           <p class="fallback-font" style="margin: 0 0 10px; margin-bottom: 20px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: center; font-weight: 400;">
             <strong>Tenés otra consulta?</strong>
@@ -398,7 +398,7 @@
           <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
             <tr>
               <td class="button-td button-td-primary" style="border-radius: 4px; background: #ffffff;">
-                <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="mailto:{email_client}" style="background: #ffffff; border: 1px solid #ffffff; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #ffbd0a; display: block; border-radius: 4px;">CONTACTANOS
+                <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="mailto:{email_client}" style="background: #ffffff; border: 1px solid #ffffff; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #EA6A00; display: block; border-radius: 4px;">CONTACTANOS
                 </a>
               </td>
             </tr>

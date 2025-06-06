@@ -85,14 +85,13 @@
 
 .btnSend {
   background-color: var(--primary-color) !important;
-  color: var(--third-color) !important;
+  color: white !important;
   width: 100%;
   margin-bottom: 15px;
 }
 
 .btnSend:hover {
   background-color: var(--third-color) !important;
-  color: white !important;
 }
 
 /* MEDIA QUERIES */

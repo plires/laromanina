@@ -4,9 +4,9 @@
       "id": 1,
       "column": "left",
       "title": "Racks de almacenamiento",
-      "description": "<p>son una solución adaptable a cada necesidad, diseñada para ofrecer lo mejor en capacidad, calidad y seguridad en diversas situaciones. Nuestra línea Rorack® se personaliza según el espacio disponible, el tipo de material a almacenar y el modelo de gestión que mejor se ajuste a las exigencias de cada usuario.</p><p>Fabricados en diferentes versiones, nuestros sistemas emplean materiales y técnicas de vanguardia, garantizando un equilibrio perfecto entre la capacidad de carga y la eficiencia operativa.</p>",
-      "img": "racks-almacenamiento.png",
-      "imgOpt": "racks-almacenamiento.webp",
+      "description": "<p>Son la solución ideal para optimizar espacios y garantizar un sistema seguro, eficiente y adaptado a cada necesidad. Nuestra línea Rorack® se desarrolla a medida, considerando el espacio disponible, el tipo de material a almacenar y el modelo de gestión que mejor se ajuste a cada operación.</p><p>Fabricados en distintas versiones, utilizamos materiales y tecnologías de vanguardia para lograr un equilibrio perfecto entre capacidad de carga, durabilidad y eficiencia operativa. Pensados para grandes exigencias, diseñados para ofrecer resultados concretos.</p>",
+      "img": "racks-almacenamiento-naranja.png",
+      "imgOpt": "racks-almacenamiento-naranja.webp",
       "alt": "racks de almacenamiento",
       "extra": false
     },
@@ -15,8 +15,8 @@
       "column": "right",
       "title": "Estanterías metálicas",
       "description": "<p>La línea más completa de estanterías metálicas desarmables, que, ya sea en su versión abierta o con accesorios adicionales, ofrece soluciones versátiles para almacenar, clasificar y exhibir todo tipo de materiales de manera eficiente y organizada.</p>",
-      "img": "estanterias-metalicas.png",
-      "imgOpt": "estanterias-metalicas.webp",
+      "img": "estanterias-metalicas-naranja.png",
+      "imgOpt": "estanterias-metalicas-naranja.webp",
       "alt": "estanterias metalicas de almacenamiento",
       "extra": true
     }

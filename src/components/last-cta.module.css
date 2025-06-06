@@ -8,6 +8,10 @@
   font-size: 1.25rem !important;
 }
 
+.btnProduct {
+  color: white !important;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
 }

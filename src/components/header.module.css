@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  background: url('@/assets/img/header-750.jpg'); /* Imagen por defecto para navegadores que no soportan WebP */
+  background: url('@/assets/img/header-naranja-750.jpg'); /* Imagen por defecto para navegadores que no soportan WebP */
   background-repeat: no-repeat !important;
   background-position: 100% 50% !important;
   background-size: cover !important;
@@ -8,9 +8,19 @@
   text-align: center;
 }
 
-@supports (background-image: url('@/assets/img/header-750.webp')) {
+.header:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 5px;
+  width: 100%;
+  background: var(--primary-color);
+}
+
+@supports (background-image: url('@/assets/img/header-naranja-750.webp')) {
   .header {
-    background: url('@/assets/img/header-750.webp'); /* Imagen WebP para navegadores compatibles */
+    background: url('@/assets/img/header-naranja-750.webp'); /* Imagen WebP para navegadores compatibles */
   }
 }
 
@@ -102,6 +112,11 @@
 @media (min-width: 992px) {
   .header {
     padding: 80px 30px 80px 30px;
+  }
+
+  .header:after {
+    height: 10px;
+    width: 75%;
   }
 
   .logo img {

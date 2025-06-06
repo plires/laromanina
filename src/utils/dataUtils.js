@@ -2,11 +2,13 @@ import products from '@/data/products.json'
 import typesEstanterias from '@/data/types-estanterias.json'
 import features from '@/data/features.json'
 import images from '@/data/images-gallery.json'
+import clients from '@/data/clientes-gallery.json'
 
 export const getProducts = key => products[key]
 export const getTypesEstanterias = key => typesEstanterias[key]
 export const getFeatures = key => features[key]
 export const getImagesGallery = key => images[key]
+export const getClientsGallery = key => clients[key]
 
 export const getCurrentMonth = () => {
   const date = new Date()

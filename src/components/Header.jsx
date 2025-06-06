@@ -22,8 +22,9 @@ const Header = () => {
               </picture>
             </div>
             <h1 data-aos='fade-up'>
-              Soluciones de organización. <br />
-              <span>Capacidad, calidad y seguridad.</span>
+              Sistema de <br />
+              organización industrial. <br />
+              <span>Adaptabilidad, resistencia y eficacia.</span>
             </h1>
           </div>
           <div className={`col-md-6 ${styles.contentForm}`}>
