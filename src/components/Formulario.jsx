@@ -41,7 +41,7 @@ export default function Formulario() {
       delete values.newsletter
     }
 
-    values.origin = 'Landing Totems de Seguridad'
+    values.origin = import.meta.env.VITE_NAME_LANDING
 
     const urlParams = new URLSearchParams(window.location.search)
 
